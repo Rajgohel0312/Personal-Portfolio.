@@ -1,0 +1,40 @@
+
+/* =========================  
+     R E S P O N S I V E
+   ========================= */
+@media only screen and (max-width: 960px) {
+    .bottom-row .social-icon {
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    .bottom-row .social-icon {
+      padding: 6px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container {
+      grid-template: 100% / 30% 70%;
+    }
+    .bottom-row .social-icon{
+      font-size: 1.2rem;
+      padding: 3px;
+   }
+  }
+  @media only screen and (max-width: 531px) {
+      .container {
+          grid-template: 100% / 40% 60%;
+          height: 100%;
+        }
+        .container img{
+          width: 120px;
+        }
+        .main-page h1{
+          font-size: 2rem;
+        }
+        .profile-title{
+          font-size: 1rem;
+        }
+  
+  }
+  
